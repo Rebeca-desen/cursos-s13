@@ -1,0 +1,25 @@
+{
+  "name": "cursos-s13",
+  "version": "1.0.0",
+  "description": "teste de integração do mongodb com o código",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rebeca-desen/cursos-s13.git"
+  },
+  "author": "Rebeca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rebeca-desen/cursos-s13/issues"
+  },
+  "homepage": "https://github.com/Rebeca-desen/cursos-s13#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.14"
+  }
+}
