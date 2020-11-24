@@ -38,7 +38,7 @@ app.use(function (req, res, next) {
   })
 
 app.use("/", index)
-app.use("/cursos", cursos)
+app.use("/curso", cursos)
 
 
 module.exports = app

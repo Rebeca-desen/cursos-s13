@@ -34,7 +34,7 @@ const postCurso = (req, res) => {
     }
     res.status(201).send(curso.toJSON())
   })
-  
+  console.log('atualizado')
 };
 
 const deleteCurso = (req, res) => {
