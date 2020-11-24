@@ -8,7 +8,7 @@ const app = express()
 mongoose.connect("mongodb://localhost:27017/curso", { 
   useNewUrlParser: true, 
   useUnifiedTopology: true 
-});
+})
 
 //Conexão com o mongo
 let db = mongoose.connection;

@@ -2,7 +2,7 @@ const cursos = require('../models/cursos');
 
 const getAll = (req, res) => {
   console.log(req.url);
-  tarefas.find(function(err, cursos){
+  cursos.find(function(err, cursos){
     if(err) { 
       res.status(500).send({ message: err.message })
     }
@@ -52,13 +52,13 @@ const deleteCurso = (req, res) => {
            })
         }
         res.status(200).send({ 
-          message: 'Tarefa removida com sucesso', 
+          message: 'Curso removida com sucesso', 
           status: "SUCCESS" 
         })
       })
     }else{
       res.status(200).send({ 
-        message: 'Não há tafera para ser removida', 
+        message: 'Não tem curso para ser removido', 
         status: "EMPTY" 
       })
     }
